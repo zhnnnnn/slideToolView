@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3AA7271E5AD16A005E04E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA7261E5AD16A005E04E7 /* main.m */; };
+		CD3AA72A1E5AD16A005E04E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA7291E5AD16A005E04E7 /* AppDelegate.m */; };
+		CD3AA72D1E5AD16A005E04E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA72C1E5AD16A005E04E7 /* ViewController.m */; };
+		CD3AA7301E5AD16A005E04E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3AA72E1E5AD16A005E04E7 /* Main.storyboard */; };
+		CD3AA7321E5AD16A005E04E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3AA7311E5AD16A005E04E7 /* Assets.xcassets */; };
+		CD3AA7351E5AD16A005E04E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3AA7331E5AD16A005E04E7 /* LaunchScreen.storyboard */; };
+		CD3AA7401E5AD16A005E04E7 /* slideToolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA73F1E5AD16A005E04E7 /* slideToolViewTests.m */; };
+		CD3AA74B1E5AD16A005E04E7 /* slideToolViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA74A1E5AD16A005E04E7 /* slideToolViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3AA73C1E5AD16A005E04E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3AA71A1E5AD16A005E04E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3AA7211E5AD16A005E04E7;
+			remoteInfo = slideToolView;
+		};
+		CD3AA7471E5AD16A005E04E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3AA71A1E5AD16A005E04E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3AA7211E5AD16A005E04E7;
+			remoteInfo = slideToolView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3AA7221E5AD16A005E04E7 /* slideToolView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideToolView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3AA7261E5AD16A005E04E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3AA7281E5AD16A005E04E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3AA7291E5AD16A005E04E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3AA72B1E5AD16A005E04E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD3AA72C1E5AD16A005E04E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD3AA72F1E5AD16A005E04E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3AA7311E5AD16A005E04E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3AA7341E5AD16A005E04E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3AA7361E5AD16A005E04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3AA73B1E5AD16A005E04E7 /* slideToolViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideToolViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3AA73F1E5AD16A005E04E7 /* slideToolViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slideToolViewTests.m; sourceTree = "<group>"; };
+		CD3AA7411E5AD16A005E04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3AA7461E5AD16A005E04E7 /* slideToolViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideToolViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3AA74A1E5AD16A005E04E7 /* slideToolViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slideToolViewUITests.m; sourceTree = "<group>"; };
+		CD3AA74C1E5AD16A005E04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3AA71F1E5AD16A005E04E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3AA7381E5AD16A005E04E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3AA7431E5AD16A005E04E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3AA7191E5AD16A005E04E7 = {
+			isa = PBXGroup;
+			children = (
+				CD3AA7241E5AD16A005E04E7 /* slideToolView */,
+				CD3AA73E1E5AD16A005E04E7 /* slideToolViewTests */,
+				CD3AA7491E5AD16A005E04E7 /* slideToolViewUITests */,
+				CD3AA7231E5AD16A005E04E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3AA7231E5AD16A005E04E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AA7221E5AD16A005E04E7 /* slideToolView.app */,
+				CD3AA73B1E5AD16A005E04E7 /* slideToolViewTests.xctest */,
+				CD3AA7461E5AD16A005E04E7 /* slideToolViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3AA7241E5AD16A005E04E7 /* slideToolView */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AA7281E5AD16A005E04E7 /* AppDelegate.h */,
+				CD3AA7291E5AD16A005E04E7 /* AppDelegate.m */,
+				CD3AA72B1E5AD16A005E04E7 /* ViewController.h */,
+				CD3AA72C1E5AD16A005E04E7 /* ViewController.m */,
+				CD3AA72E1E5AD16A005E04E7 /* Main.storyboard */,
+				CD3AA7311E5AD16A005E04E7 /* Assets.xcassets */,
+				CD3AA7331E5AD16A005E04E7 /* LaunchScreen.storyboard */,
+				CD3AA7361E5AD16A005E04E7 /* Info.plist */,
+				CD3AA7251E5AD16A005E04E7 /* Supporting Files */,
+			);
+			path = slideToolView;
+			sourceTree = "<group>";
+		};
+		CD3AA7251E5AD16A005E04E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AA7261E5AD16A005E04E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD3AA73E1E5AD16A005E04E7 /* slideToolViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AA73F1E5AD16A005E04E7 /* slideToolViewTests.m */,
+				CD3AA7411E5AD16A005E04E7 /* Info.plist */,
+			);
+			path = slideToolViewTests;
+			sourceTree = "<group>";
+		};
+		CD3AA7491E5AD16A005E04E7 /* slideToolViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3AA74A1E5AD16A005E04E7 /* slideToolViewUITests.m */,
+				CD3AA74C1E5AD16A005E04E7 /* Info.plist */,
+			);
+			path = slideToolViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3AA7211E5AD16A005E04E7 /* slideToolView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3AA74F1E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolView" */;
+			buildPhases = (
+				CD3AA71E1E5AD16A005E04E7 /* Sources */,
+				CD3AA71F1E5AD16A005E04E7 /* Frameworks */,
+				CD3AA7201E5AD16A005E04E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slideToolView;
+			productName = slideToolView;
+			productReference = CD3AA7221E5AD16A005E04E7 /* slideToolView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3AA73A1E5AD16A005E04E7 /* slideToolViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3AA7521E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolViewTests" */;
+			buildPhases = (
+				CD3AA7371E5AD16A005E04E7 /* Sources */,
+				CD3AA7381E5AD16A005E04E7 /* Frameworks */,
+				CD3AA7391E5AD16A005E04E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3AA73D1E5AD16A005E04E7 /* PBXTargetDependency */,
+			);
+			name = slideToolViewTests;
+			productName = slideToolViewTests;
+			productReference = CD3AA73B1E5AD16A005E04E7 /* slideToolViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3AA7451E5AD16A005E04E7 /* slideToolViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3AA7551E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolViewUITests" */;
+			buildPhases = (
+				CD3AA7421E5AD16A005E04E7 /* Sources */,
+				CD3AA7431E5AD16A005E04E7 /* Frameworks */,
+				CD3AA7441E5AD16A005E04E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3AA7481E5AD16A005E04E7 /* PBXTargetDependency */,
+			);
+			name = slideToolViewUITests;
+			productName = slideToolViewUITests;
+			productReference = CD3AA7461E5AD16A005E04E7 /* slideToolViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3AA71A1E5AD16A005E04E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CD3AA7211E5AD16A005E04E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD3AA73A1E5AD16A005E04E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3AA7211E5AD16A005E04E7;
+					};
+					CD3AA7451E5AD16A005E04E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3AA7211E5AD16A005E04E7;
+					};
+				};
+			};
+			buildConfigurationList = CD3AA71D1E5AD16A005E04E7 /* Build configuration list for PBXProject "slideToolView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3AA7191E5AD16A005E04E7;
+			productRefGroup = CD3AA7231E5AD16A005E04E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3AA7211E5AD16A005E04E7 /* slideToolView */,
+				CD3AA73A1E5AD16A005E04E7 /* slideToolViewTests */,
+				CD3AA7451E5AD16A005E04E7 /* slideToolViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3AA7201E5AD16A005E04E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3AA7351E5AD16A005E04E7 /* LaunchScreen.storyboard in Resources */,
+				CD3AA7321E5AD16A005E04E7 /* Assets.xcassets in Resources */,
+				CD3AA7301E5AD16A005E04E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3AA7391E5AD16A005E04E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3AA7441E5AD16A005E04E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3AA71E1E5AD16A005E04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3AA72D1E5AD16A005E04E7 /* ViewController.m in Sources */,
+				CD3AA72A1E5AD16A005E04E7 /* AppDelegate.m in Sources */,
+				CD3AA7271E5AD16A005E04E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3AA7371E5AD16A005E04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3AA7401E5AD16A005E04E7 /* slideToolViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3AA7421E5AD16A005E04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3AA74B1E5AD16A005E04E7 /* slideToolViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3AA73D1E5AD16A005E04E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3AA7211E5AD16A005E04E7 /* slideToolView */;
+			targetProxy = CD3AA73C1E5AD16A005E04E7 /* PBXContainerItemProxy */;
+		};
+		CD3AA7481E5AD16A005E04E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3AA7211E5AD16A005E04E7 /* slideToolView */;
+			targetProxy = CD3AA7471E5AD16A005E04E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3AA72E1E5AD16A005E04E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3AA72F1E5AD16A005E04E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3AA7331E5AD16A005E04E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3AA7341E5AD16A005E04E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3AA74D1E5AD16A005E04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3AA74E1E5AD16A005E04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3AA7501E5AD16A005E04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = slideToolView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.slideToolView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3AA7511E5AD16A005E04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = slideToolView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.slideToolView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3AA7531E5AD16A005E04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = slideToolViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.slideToolViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slideToolView.app/slideToolView";
+			};
+			name = Debug;
+		};
+		CD3AA7541E5AD16A005E04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = slideToolViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.slideToolViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slideToolView.app/slideToolView";
+			};
+			name = Release;
+		};
+		CD3AA7561E5AD16A005E04E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = slideToolViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.slideToolViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slideToolView;
+			};
+			name = Debug;
+		};
+		CD3AA7571E5AD16A005E04E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = slideToolViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.slideToolViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slideToolView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3AA71D1E5AD16A005E04E7 /* Build configuration list for PBXProject "slideToolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3AA74D1E5AD16A005E04E7 /* Debug */,
+				CD3AA74E1E5AD16A005E04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3AA74F1E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3AA7501E5AD16A005E04E7 /* Debug */,
+				CD3AA7511E5AD16A005E04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3AA7521E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3AA7531E5AD16A005E04E7 /* Debug */,
+				CD3AA7541E5AD16A005E04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3AA7551E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3AA7561E5AD16A005E04E7 /* Debug */,
+				CD3AA7571E5AD16A005E04E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3AA71A1E5AD16A005E04E7 /* Project object */;
+}
