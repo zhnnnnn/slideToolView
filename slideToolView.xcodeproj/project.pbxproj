@@ -15,6 +15,7 @@
 		CD3AA7351E5AD16A005E04E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3AA7331E5AD16A005E04E7 /* LaunchScreen.storyboard */; };
 		CD3AA7401E5AD16A005E04E7 /* slideToolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA73F1E5AD16A005E04E7 /* slideToolViewTests.m */; };
 		CD3AA74B1E5AD16A005E04E7 /* slideToolViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA74A1E5AD16A005E04E7 /* slideToolViewUITests.m */; };
+		CD3AA7601E5AD2B0005E04E7 /* ZHNSlideToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AA75F1E5AD2B0005E04E7 /* ZHNSlideToolView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD3AA7461E5AD16A005E04E7 /* slideToolViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideToolViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3AA74A1E5AD16A005E04E7 /* slideToolViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slideToolViewUITests.m; sourceTree = "<group>"; };
 		CD3AA74C1E5AD16A005E04E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3AA75E1E5AD2B0005E04E7 /* ZHNSlideToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNSlideToolView.h; sourceTree = "<group>"; };
+		CD3AA75F1E5AD2B0005E04E7 /* ZHNSlideToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNSlideToolView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CD3AA7291E5AD16A005E04E7 /* AppDelegate.m */,
 				CD3AA72B1E5AD16A005E04E7 /* ViewController.h */,
 				CD3AA72C1E5AD16A005E04E7 /* ViewController.m */,
+				CD3AA75E1E5AD2B0005E04E7 /* ZHNSlideToolView.h */,
+				CD3AA75F1E5AD2B0005E04E7 /* ZHNSlideToolView.m */,
 				CD3AA72E1E5AD16A005E04E7 /* Main.storyboard */,
 				CD3AA7311E5AD16A005E04E7 /* Assets.xcassets */,
 				CD3AA7331E5AD16A005E04E7 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				CD3AA72D1E5AD16A005E04E7 /* ViewController.m in Sources */,
 				CD3AA72A1E5AD16A005E04E7 /* AppDelegate.m in Sources */,
 				CD3AA7271E5AD16A005E04E7 /* main.m in Sources */,
+				CD3AA7601E5AD2B0005E04E7 /* ZHNSlideToolView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				CD3AA7511E5AD16A005E04E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD3AA7521E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				CD3AA7541E5AD16A005E04E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD3AA7551E5AD16A005E04E7 /* Build configuration list for PBXNativeTarget "slideToolViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				CD3AA7571E5AD16A005E04E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
